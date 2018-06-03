@@ -21,3 +21,11 @@ html body{
   flex-direction: column;
   color: white;
 }
+.quote{
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+}
+.author{
+  font-family: 'Open Sans', sans-serif;
+  font-style:italic;
+}
