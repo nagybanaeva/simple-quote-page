@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 html body{
   width: 100vw;
@@ -13,19 +14,54 @@ html body{
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.poster{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   color: white;
+  flex-direction: column;
+}
+.text{
+  display: flex;
 }
 .quote{
   font-family: 'Oswald', sans-serif;
   font-size: 2rem;
+  text-align: center;
+  margin: 1rem;
 }
 .author{
   font-family: 'Open Sans', sans-serif;
   font-style:italic;
+  text-align: center;
+  font-size: 1rem;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+.gombocska{
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0.62rem;
+  margin: 0.62rem;
+  width: 8.5rem;
+  display: inline-block;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+.gombocska:hover{
+  border: 0.062rem solid white;
+  transition-duration: 0.5s;
+}
+.gombdoboz{
+  text-align: center;
+  margin: 2rem;
+}
+@media (min-width: 768px){
+  .quote{
+    font-size: 3rem;
+    margin: 1rem;
+  }
+    .author{
+      font-size: 2rem;
+    }
+  .gombocska{
+    font-size: 2rem;
+  }
 }
