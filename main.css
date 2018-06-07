@@ -40,6 +40,7 @@ a{
   background-color: rgba(0, 0, 0, 0.5);
   padding: 0.62rem;
   margin: 0.62rem;
+  border: 0.062rem solid transparent;
   width: 8.5rem;
   display: inline-block;
   text-align: center;
@@ -47,6 +48,7 @@ a{
 }
 .gombocska:hover{
   border: 0.062rem solid white;
+  border-style: ridge;
   transition-duration: 0.5s;
 }
 .gombdoboz{
